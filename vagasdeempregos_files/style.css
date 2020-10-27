@@ -1,0 +1,214 @@
+body {
+  font-family: "Lato", sans-serif;
+	background-color: #e9ebee;
+	margin: 0px;}
+header{
+  background-color:#3D5FA5;
+	top: 0;
+	border-bottom:1px solid #2851A3;
+  right: 0px;
+  left: 0;
+height:83px}
+.logo{
+float: left;
+	margin-left:15%;
+	margin-top: 8px;
+		background-image:url("Facebook-Logo.png");
+		background-size: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		width: 195px;
+		height: 83px;
+		z-index: 1;
+
+
+	}
+.cadastre{float: left;
+margin-top: 35px;}
+.cds{background-color: #42b72a;
+	color: white;
+	cursor: pointer;
+	border-radius: 2px;
+    box-sizing: content-box;
+    font-size: 12px;
+	line-height: 26px;
+    padding: 0 10px;
+    font-weight: bold;
+	border: solid 1px #42b72a;
+}
+.cds:hover{background-color:#008C00;}
+.login{float: right;
+margin-right: 15%;
+margin-top: 2%;}
+.lg{color: white;cursor: pointer;
+	font-weight: bold;
+	font-family: inherit;
+font-size: 12px;}
+.lg1{color: white;cursor: pointer;
+	font-weight: bold;
+float:right;
+	margin-right: -17px;
+	margin-top: -28px;
+	font-family: inherit;
+font-size: 17px;}
+.fas fa-caret-down{
+
+	color: white;
+font-size:23px;}
+.entrar{width:250px;
+height: 266px;
+	display: none;
+background-color: #f5f6f7;
+    border: 0 solid white;
+    border-radius: 3px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, .3);
+    float: right;
+	margin-right: -215px;
+	margin-top: 75px;
+    
+   
+}
+form{padding: 15px;}
+.seta{font-size: 37px;
+	float: right;
+color: #f5f6f7;
+	margin-right: 15px;
+margin-top: -35px}
+.email{width: 100%;
+	border: 1px solid #d3d6db;
+    font-size: 14px;
+    height: 28px;
+	
+    text-align: left;
+
+	box-sizing: border-box;
+	
+ }
+.email :active{border: 1px solid #d3d6db;}
+label{color: #606770;
+font-weight: 600;
+text-align: left;
+	font-size: 12px;
+}
+.recover{color: #385898;
+cursor: pointer;
+font-size: 12px;
+	margin-top: 2px;
+text-align: right;}
+.recover:hover{text-decoration: underline;}
+.logar{cursor: pointer;
+	color: white;
+	background-color: #4267b2;
+	border:1px solid #4267b2;
+border-color: #4267b2;
+	font-size: 12px;
+width: 100%;
+	font-weight: bold;
+	height: 28px;}
+.footer-entrar{width: 100%;
+	height: 80px;
+	border-bottom-left-radius:3px ;
+	border-bottom-right-radius: 3px;
+background-color:#E8EBED;}
+.participar{
+	color: #7f7f7f;
+	text-align: center;
+font-size: 12px;
+line-height: 14px;
+margin-bottom: 10px;
+padding-top: 10px;
+}
+.cds2{background-color: #42b72a;
+	color: white;
+	cursor: pointer;
+	border-radius: 2px;
+    box-sizing: content-box;
+    font-size: 12px;
+	line-height: 26px;
+    padding: 0 10px;
+    font-weight: bold;
+	margin-left: 32%;
+	border: solid 1px #42b72a;}
+.cds2:hover{background-color:#008C00;}
+.main{border:1px solid black;
+max-width: 1000px;
+	height: 700px;
+	margin: 0 auto;
+	margin-top: 30px;
+
+
+
+}
+
+.popup {
+	float: right;
+	margin-top: 30px;
+	margin-right: 500px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select:text;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility:inherit;
+  width: 260px;
+  color: #fff;
+  height: 266px;
+background-color: #f5f6f7;
+    border: 0 solid white;
+    border-radius: 3px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, .3);
+  padding: 8px 0;
+position:absolute;
+  z-index: 1;
+ top: 190%;
+  left: 4.5%;
+  margin-left: -50px;
+}
+
+/* Popup arrow */
+
+.popup .popuptext::after {
+
+position:absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility:inherit;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+.clik{
+float:right;
+color: white;
+margin-right:-22px;
+margin-top:-15px;
+
+}
+
+
+
+
